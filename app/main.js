@@ -13,7 +13,6 @@ $(function() {
                     if(this.label === dynamicMenu.items[i].label) {
                         dynamicMenu.removeAt(i);
                         console.log(dynamicMenu.items);
-                        gui.Window.get().menu = mainMenu;
                         break;
                     }
                 }
@@ -26,7 +25,6 @@ $(function() {
         click: function() {
             dynamicMenu.append(createNewMenuItem());
             console.log(dynamicMenu.items);
-            gui.Window.get().menu = mainMenu;
         }
     }));
 

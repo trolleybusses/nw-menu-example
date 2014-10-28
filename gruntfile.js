@@ -1,5 +1,3 @@
-/*jshint node:true, strict:false, -W106 */
-
 module.exports = function (grunt) {
 
     grunt.initConfig({
