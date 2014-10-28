@@ -1,0 +1,21 @@
+{
+  "main": "index.html",
+  "name": "Node-webkit Menu Test",
+  "description": "Showing that menus don't get updated at runtime on Windows",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {},
+  "window": {
+    "title": "NW Menu Test",
+    "min_width": 640,
+    "max_width": 640,
+    "width": 640,
+    "min_height": 480,
+    "max_height": 480,
+    "height": 480,
+    "toolbar": false,
+    "position": "center"
+  },
+  "webkit": {}
+}

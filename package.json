@@ -1,0 +1,11 @@
+{
+  "name": "nw-menu-test",
+  "description": "Example of menus not updating properly",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-node-webkit-builder": "latest"
+  }
+}
